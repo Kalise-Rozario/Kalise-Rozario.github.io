@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <title>KALISE VINCENT ROZARIO</title>
+
+  <script defer src="script/script.js"></script>
+  <style>
+    /* Footer styling */
+    .footer {
+      background-color: #333; /* Dark background color for the footer */
+      padding: 20px; /* Padding for spacing */
+      color: white; /* White text color */
+      text-align: center; /* Center-align text */
+    }
+
+    /* Footer navigation links styling */
+    .footer__nav {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 20px;
+    }
+
+    .footer__item {
+      display: inline;
+      margin: 0 10px;
+    }
+
+    .footer__link {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    .footer__link:hover {
+      color: #007bff; /* Change color on hover */
+    }
+
+    /* Contact Me button styling */
+    .btn--show-modal {
+      margin: 20px 0;
+    }
+
+    /* Social icons container styling */
+    .social-icons-container {
+      margin-top: 20px; /* Space above social icons */
+    }
+
+    /* Social icons styling */
+    .social-icons {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center; /* Center-align icons */
+      gap: 15px; /* Space between icons */
+      margin: 0; /* Remove default margin */
+    }
+
+    .social-icons a {
+      text-decoration: none;
+      color: white; /* White color for icons */
+      font-size: 24px; /* Adjust size as needed */
+      transition: color 0.3s;
+    }
+
+    .social-icons a:hover {
+      color: #007bff; /* Change color on hover */
+    }
+  </style>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav">
+      <img src="" data-version-number="3.0" />
+      <ul class="nav__links">
+        <li class="nav__item">
+          <a class="nav__link" href="#">HOME</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#section--1">ABOUT</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#section--2">EXPERIENCE</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#section--3">EDUCATION</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link nav__link--btn btn--show-modal" href="#">Contact Me</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="header__title">
+      <h1>
+        Hey, my name is
+        <span class="highlight">kalise vincent rozario</span>
+        <br>I'm an
+        <span class="highlight">IT</span>
+        Engineer and Data Science Enthusiast
+      </h1>
+      <h4><b>Belive in god.</b></h4>
+      <button class="btn--text btn--scroll-to">DOWNLOAD CV</button>
+      <img src="img/c.png" class="header__img" alt="Minimalist items" />
+    </div>
+  </header>
+
+  <section class="section" id="section--1">
+    <div class="section__title">
+      <h2 class="section__description">About Me</h2>
+      <h3 class="section__header">
+        I embraced every challenge with enthusiasm and a problem-solving mindset.I was dedicated to troubleshooting hardware and software issues, offering help to end-users, and performing routine system maintenance.
+      </h3>
+    </div>
+
+    <div class="operations">
+      <div class="operations__tab-container">
+        <button class="btn operations__tab operations__tab--1 operations__tab--active" data-tab="1">
+          <span>01</span>Skill 1
+        </button>
+        <button class="btn operations__tab operations__tab--2" data-tab="2">
+          <span>02</span>Skill 2
+        </button>
+        <button class="btn operations__tab operations__tab--3" data-tab="3">
+          <span>03</span>Skill 3
+        </button>
+      </div>
+      <div class="operations__content operations__content--1 operations__content--active">
+        <div class="operations__icon operations__icon--1">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-upload"></use>
+          </svg>
+        </div>
+        <h5 class="operations__header">
+          IT Support Engineer
+        </h5>
+        <p>
+          As an IT Support Engineer, I am responsible for providing technical assistance and support to end-users, ensuring
+          the smooth operation of hardware and software systems. My role involves diagnosing and troubleshooting a range of IT issues,
+          from network connectivity problems to software malfunctions, and delivering timely solutions to minimize downtime.
+          I also assist in the setup and maintenance of computer systems, manage user accounts, and provide guidance on best practices for
+          technology use. Through effective communication and problem-solving skills, I help maintain a productive and efficient work environment.
+        </p>
+      </div>
+
+      <div class="operations__content operations__content--2">
+        <div class="operations__icon operations__icon--2">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-home"></use>
+          </svg>
+        </div>
+        <h5 class="operations__header">
+          ERP SUPPORT (EMR: Electronic Medical Record)
+        </h5>
+        <p>
+          As an ERP Support Specialist with a focus on Electronic Medical Records (EMR), I am responsible for managing and maintaining the
+          EMR system to ensure its effective performance and usability. My role involves troubleshooting and resolving technical issues
+          related to the EMR software, providing training and support to healthcare staff, and ensuring data integrity and security.
+          I work closely with users to optimize system functionality, handle software updates, and implement improvements based on
+          user feedback. By ensuring seamless operation of the EMR system, I contribute to enhancing patient care and operational efficiency within the healthcare setting.
+        </p>
+      </div>
+      <div class="operations__content operations__content--3">
+        <div class="operations__icon operations__icon--3">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-user-x"></use>
+          </svg>
+        </div>
+        <h5 class="operations__header">
+          Data Science
+        </h5>
+        <p>
+          As a Data Scientist, I analyze complex data sets to uncover valuable insights and support data-driven decision-making.
+          My role involves collecting, cleaning, and interpreting large volumes of data, applying statistical methods and machine
+          learning algorithms to identify patterns, and creating visualizations to communicate findings effectively. I work closely with stakeholders to understand their needs and develop actionable recommendations that drive business strategies and improve operational efficiency. By leveraging data to inform decisions, I help organizations make informed choices and achieve their goals.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="section--2">
+    <div class="section__title">
+      <h2 class="section__description">EXPERIENCE</h2>
+      <h3 class="section__header">
+        I am starting to learn.
+      </h3>
+    </div>
+
+    <div class="features">
+      <img src="img/digital-lazy.jpg" data-src="img/hos.jpg" alt="Computer" class="features__img lazy-img" />
+      <div class="features__feature">
+        <div class="features__icon">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-monitor"></use>
+          </svg>
+        </div>
+        <h4 class="features__header">ISPAHANI ISLAMIA EYE INSTITUTE & HOSPITAL</h4>
+		<h5 class="fearures_header">IT-INTERN at ICT department</h5>
+        <p>
+          <ul>
+            <li><strong>Orientation and Training:</strong>
+              <ul>
+                <li>Introduction to ICT Systems: Understanding the hospital’s IT infrastructure including hardware, software, and network systems.</li>
+                <li>Training Sessions: Participating in training on hospital-specific software for patient management, EHR, and other applications.</li>
+              </ul>
+            </li>
+            <li><strong>Daily Responsibilities:</strong>
+              <ul>
+                <li>Technical Support: Providing support by troubleshooting and resolving IT issues related to computers, printers, and other equipment.</li>
+                <li>System Maintenance: Assisting with routine maintenance including software updates, system backups, and hardware checks.</li>
+                <li>Data Management: Helping with the entry and management of patient data, ensuring accuracy and confidentiality.</li>
+                <li>Software Applications: Learning and working with medical software applications for patient care and hospital management.</li>
+              </ul>
+            </li>
+            <li><strong>Project Involvement:</strong>
+              <ul>
+                <li>System Upgrades: Participating in projects related to system upgrades or new technology implementations.</li>
+                <li>Data Analysis: Assisting in analyzing data for reports on patient statistics or system performance metrics.</li>
+                <li>Process Improvement: Contributing ideas to improve IT processes and workflows.</li>
+              </ul>
+            </li>
+          </ul>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="section--3">
+    <div class="section__title section__title--testimonials">
+      <h2 class="section__description">EDUCATION</h2>
+      <h3 class="section__header">
+      </h3>
+    </div>
+
+    <div class="slider">
+      <div class="slide">
+        <div class="testimonial">
+          <h5 class="testimonial__header">B.SC(ENGG.) IN COMPUTER SCIENCE AND ENGINEERING</h5>
+          <blockquote class="testimonial__text">
+            I completed my graduation from AMERICAN INTERNATIONAL UNIVERSITY OF BANGLADESH with cgpa 3.33 out of 4.00.
+          </blockquote>
+          <address class="testimonial__author">
+            <img src="img/j.png" alt="" class="testimonial__photo" />
+            <h6 class="testimonial__name">AIUB</h6>
+            <p class="testimonial__location">DHAKA, BANGLADESH.</p>
+          </address>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="testimonial">
+          <h5 class="testimonial__header">Higher Secondary School Certificate</h5>
+          <blockquote class="testimonial__text">
+            I completed my HSC from NOTRE DAME COLLEGE under DHAKA BOARD at 2019 with gpa 4.83 out of 5.00.
+          </blockquote>
+          <address class="testimonial__author">
+            <img src="img/n.png" alt="" class="testimonial__photo" />
+            <h6 class="testimonial__name">NOTRE DAME COLLEGE.</h6>
+            <p class="testimonial__location">DHAKA, BANGLADESH.</p>
+          </address>
+        </div>
+      </div>
+      <button class="slider__btn slider__btn--left">&larr;</button>
+      <button class="slider__btn slider__btn--right">&rarr;</button>
+      <div class="dots"></div>
+    </div>
+  </section>
+
+  <section class="section section--sign-up">
+    <div class="section__title">
+      <h3 class="section__header">
+        Mention different ways to contact you.
+      </h3>
+    </div>
+    <button class="btn btn--show-modal">Contact Me</button>
+    <div class="social-icons-container">
+      <ul class="social-icons">
+        <li><a href="https://www.facebook.com/kalise.rozario?mibextid=ZbWKwL" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="https://twitter.com/YourProfile" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/kalise-vincent" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+        <li><a href="https://www.instagram.com/YourProfile" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="mailto:your-email@example.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <ul class="footer__nav">
+       <div class="main-footer__lower">
+          &copy; Copyright 2024. Made by
+        <h4>  <a rel="noreferrer" target="_blank">
+            KALISE VINCENT ROZARIO</a
+          ></h4>
+        </div>
+      </div>
+      </li>
+  </footer>
+
+  <div class="modal hidden">
+    <button class="btn--close-modal">&times;</button>
+    <h2 class="modal__header">
+      Will reply within <br />
+      <span class="highlight">a day</span>
+    </h2>
+    <form class="modal__form">
+      <label>First Name</label>
+      <input type="text" />
+      <label>Last Name</label>
+      <input type="text" />
+      <label>Email Address</label>
+      <input type="email" />
+      <button class="btn"><a href="https://mail.google.com/"> Next step </a> &rarr;</button>
+    </form>
+  </div>
+  <div class="overlay hidden"></div>
+</body>
+
+</html>
